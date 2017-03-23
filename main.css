@@ -1,0 +1,79 @@
+
+/********** Main Styles **********/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+
+/********** Control **********/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#break {
+  margin-left: 0;
+}
+
+input {
+  width: 50px;
+  height: 30px;
+  display: block;
+}
+
+button#start-btn {
+  margin: 50px auto;
+  width: 100px;
+
+}
+
+
+
+// To do: Put input on new lines
+
+
+
+
+/********** Timer Styles **********/
+
+.timer {
+  margin: 0 auto;
+}
+
+
+
+.timer, .timer-done, .timer-loop {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 auto;
+  width: 140px;
+}
+
+
+  .jst-hours {
+    float: left;
+  }
+
+  .jst-minutes {
+    float: left;
+  }
+
+  .jst-seconds {
+    float: left;
+  }
+
+  .jst-clearDiv {
+    clear: both;
+  }
+
+  .jst-timeout {
+    color: red;
+  }
